@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joaquin Benavidez · Bidcom / Gadnic</title>
+<meta name="description" content="Joaquin Benavidez — Head of Sourcing and Product, Bidcom / Gadnic">
+<style>
+  :root {
+    --blue: #2F6FC6;
+    --blue-dark: #1F56A3;
+    --text: #1d1d1f;
+    --muted: #6b6b70;
+    --line: #e6e8ec;
+    --bg: #ffffff;
+    --soft: #f4f7fc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 440px; margin: 0 auto; padding: 0 16px 40px; }
+
+  header {
+    background: var(--blue);
+    color: #fff;
+    text-align: center;
+    padding: 28px 16px 64px;
+    border-radius: 0 0 24px 24px;
+  }
+  .brands { font-size: 26px; font-weight: 700; letter-spacing: .5px; }
+  .brands span + span { margin-left: 18px; letter-spacing: 3px; font-weight: 600; }
+  .tag { font-size: 13px; opacity: .85; margin-top: 6px; }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    margin: -44px 0 0;
+    padding: 24px 20px;
+    box-shadow: 0 8px 24px rgba(31, 86, 163, .10);
+    text-align: center;
+  }
+  h1 { font-size: 24px; letter-spacing: .5px; }
+  .zh-name { color: var(--muted); font-size: 14px; margin-top: 2px; }
+  .role { color: var(--blue); font-weight: 600; margin-top: 10px; }
+  .role-zh { color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+  .save {
+    display: block;
+    margin-top: 20px;
+    background: var(--blue);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 12px;
+  }
+  .save:active { background: var(--blue-dark); }
+  .save small { display: block; font-weight: 400; opacity: .85; font-size: 12px; margin-top: 2px; }
+
+  .list { margin-top: 18px; text-align: left; }
+  .item {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 4px;
+    border-top: 1px solid var(--line);
+    color: var(--text); text-decoration: none;
+  }
+  .ico {
+    width: 38px; height: 38px; flex: none;
+    border-radius: 10px; background: var(--soft); color: var(--blue);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .ico svg { width: 20px; height: 20px; }
+  .label { font-size: 12px; color: var(--muted); }
+  .value { font-size: 15px; font-weight: 500; word-break: break-all; }
+  .copy {
+    margin-left: auto; border: 1px solid var(--blue); color: var(--blue);
+    background: #fff; border-radius: 8px; padding: 6px 10px; font-size: 13px; font-weight: 600;
+  }
+
+  .qr-box {
+    margin-top: 18px; padding: 18px; border-radius: 16px; background: var(--soft); text-align: center;
+  }
+  .qr-box img { width: 200px; height: 200px; background: #fff; border-radius: 12px; padding: 8px; }
+  .qr-box p { font-size: 13px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 24px; line-height: 1.6; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%);
+    background: var(--text); color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 14px;
+    opacity: 0; transition: opacity .2s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brands"><span>Bidcom</span><span>GADNIC</span></div>
+  <div class="tag">Consumer electronics · Argentina &nbsp;|&nbsp; 阿根廷消费电子</div>
+</header>
+
+<div class="wrap">
+  <div class="card">
+    <h1>JOAQUIN BENAVIDEZ</h1>
+    <div class="role">Head of Sourcing and Product</div>
+    <div class="role-zh">采购与产品负责人</div>
+
+    <a class="save" href="joaquin-benavidez.vcf" download>
+      Save contact
+      <small>保存联系人</small>
+    </a>
+
+    <div class="list">
+      <div class="item">
+        <div class="ico">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.7 13.4c-.6 0-1.1-.5-1.1-1.1s.5-1.1 1.1-1.1 1.1.5 1.1 1.1-.5 1.1-1.1 1.1zm5.6 0c-.6 0-1.1-.5-1.1-1.1s.5-1.1 1.1-1.1 1.1.5 1.1 1.1-.5 1.1-1.1 1.1zM9 3C4.6 3 1 6 1 9.7c0 2.1 1.1 4 3 5.2L3.3 17l2.6-1.3c1 .3 2 .5 3.1.5h.4c-.2-.6-.3-1.2-.3-1.8 0-3.4 3.3-6.2 7.4-6.2h.4C16.2 5.2 12.9 3 9 3zm14 11.4c0-3.1-3.1-5.6-6.9-5.6s-6.9 2.5-6.9 5.6 3.1 5.6 6.9 5.6c.8 0 1.6-.1 2.3-.3l2.2 1.1-.6-1.9c1.8-1 3-2.6 3-4.5z"/></svg>
+        </div>
+        <div>
+          <div class="label">WeChat ID · 微信号</div>
+          <div class="value">jbenavidez2018</div>
+        </div>
+        <button class="copy" onclick="copyId()">Copy · 复制</button>
+      </div>
+
+      <a class="item" href="mailto:joaquin.b@bidcom.com.ar">
+        <div class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </div>
+        <div>
+          <div class="label">Email · 邮箱</div>
+          <div class="value">joaquin.b@bidcom.com.ar</div>
+        </div>
+      </a>
+
+      <a class="item" href="https://wa.me/5491161930424">
+        <div class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+        </div>
+        <div>
+          <div class="label">Phone / WhatsApp · 电话</div>
+          <div class="value">+54 9 11 6193 0424</div>
+        </div>
+      </a>
+
+      <a class="item" href="https://www.bidcom.com.ar">
+        <div class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+        </div>
+        <div>
+          <div class="label">Website · 网站</div>
+          <div class="value">www.bidcom.com.ar</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="qr-box">
+      <img src="qr-wechat.jpg" alt="WeChat QR">
+      <p>Add me on WeChat: save this image, then WeChat → Scan → Album<br>
+      添加微信：保存图片，然后在微信中 扫一扫 → 相册</p>
+    </div>
+  </div>
+
+  <footer>Bidcom / Gadnic · Buenos Aires, Argentina<br>阿根廷 布宜诺斯艾利斯</footer>
+</div>
+
+<div class="toast" id="toast">Copied · 已复制</div>
+
+<script>
+  function copyId() {
+    var id = "jbenavidez2018";
+    var done = function () {
+      var t = document.getElementById("toast");
+      t.classList.add("show");
+      setTimeout(function () { t.classList.remove("show"); }, 1500);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(id).then(done, fallback);
+    } else { fallback(); }
+    function fallback() {
+      var el = document.createElement("textarea");
+      el.value = id; document.body.appendChild(el); el.select();
+      try { document.execCommand("copy"); done(); } catch (e) {}
+      document.body.removeChild(el);
+    }
+  }
+</script>
+</body>
+</html>
